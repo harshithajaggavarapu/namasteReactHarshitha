@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namaste React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <!-- react code is written inside script tag -->
+    <script>
+        const heading = React.createElement("h1",{},"Hello World using React!");
+    //  we will be creating a root now where all react code will be runned and link it to id="root" 
+    // since root will be rendering the code we will be using ReactDOM
+        const root =ReactDOM.createRoot(document.getElementById("root"));
+    
+    // now we need to render our heading into the root
+        root.render(heading);
+        
+    </script>
+  </body>
+</html>

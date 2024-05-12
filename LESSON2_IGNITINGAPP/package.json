@@ -1,0 +1,17 @@
+{
+  "name": "lesson2_ignitingapp",
+  "version": "1.0.0",
+  "description": "ep2 coding",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "HARSHITHA REDDY",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}

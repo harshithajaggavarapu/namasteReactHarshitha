@@ -1,0 +1,52 @@
+1. What is `NPM`?
+--- npm manages the packages that we install in our system. It doesnt have any full form. Its more like a repository for all the packages.
+
+2. What is `Parcel/Webpack`? Why do we need it?
+--- parcel/webpack are bundlers. We need bundlers to bundle all our code / bind all our code and run it in an environment
+    we need them for:
+    Code Organization: Build tools help manage dependencies and organize code into modular components, making it easier to maintain and scale projects.
+    Performance Optimization: Bundling and optimizing assets improve load times and overall performance of web applications, especially for large-scale projects with many dependencies.
+    Transpilation: Tools like Babel, often integrated with Webpack or Parcel, enable developers to write modern JavaScript code and have it transpiled to a version compatible with older browsers.
+    Development Workflow: Build tools offer features like hot module replacement, which speeds up development by automatically updating the browser as changes are made to the codebase.
+
+3. What is `.parcel-cache`?
+--- when we build our code, the build bundle is saved in parcel cache so that when rebuilded it didnt have to re analyze everything from sratch.
+
+4. What is `npx` ?
+--- it is npm package runner
+
+5. What is difference between `dependencies` vs `devDependencies`
+--- Dependencies are the crucial packages required for your application to function in a production environment. At the same time, devDependencies are tools and utilities that aid in the development process but are not needed in production.
+
+6. What is Tree Shaking?
+--- it is the removal of dead code or unused code from the bundles so that they are smaller and faster to load
+
+7. What is Hot Module Replacement?
+--- when changes are done immediately after saving file changes are displayed in website, i.e HMR allows users to update app modules without reloading the page
+
+8. List down your favourite 5 superpowers of Parcel and describe any 3 of them in your own words.
+--- 1. HMR
+    2. TREE shaking
+    3. dev and prod build
+    4. bundling
+    5. https on dev
+
+9. What is `.gitignore`? What should we add and not add into it?
+--- when pushing code to github if there are any files we dont want in our git repo we add those folders in gitignore
+    what to add -- node modules, parcle cache , dist etc the folders that can be regenerated through build are not needed so we add them to gitignore
+
+10.  What is the difference between `package.json` and `package-lock.json`?
+--- package.json is a configuration for npm, it has dependency litsings and version ranges defined through semantic versioning (~/^)
+    package-lock.json will have the exact version that is being installed
+
+11. Why should I not modify `package-lock.json`?
+--- to ensure reproductivity across all platforms and consistency.
+
+12. What is `node_modules` ? Is it a good idea to push that on git?
+--- node modules are the code of the dependencies,libraries that we are using in our app. all transitive dependencies will also be present in node modules. No its not a good idea to push them to git since they can be regenerated through build
+
+13. What is the `dist` folder?
+--- dist folder contains the build of our code. dist contains the minimized and optimized version of source code.This will create a faster development version of our project and serves it on the server
+
+14. What is `browserlists`?
+--- its the number of versions in which our app can be runned on . Browserslist is a tool that specifies which browsers should be supported/compatible in your frontend app.

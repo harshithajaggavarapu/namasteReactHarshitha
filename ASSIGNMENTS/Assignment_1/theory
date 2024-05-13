@@ -1,0 +1,30 @@
+1. What is emmet?
+--- its basically a set of plugins for text editot. vs code will give basic code layout  [ ex: html:5 will give us html template] It'll speed up the coding process
+
+2. Difference between a library and framework?
+--- Library is a set of functionalities that can be reused for operations.
+    Framework is the foundation to build software tools. frameworks dictate the overall architechture, flow of application
+
+3. What is CDN? Why do we use it?
+--- CDN stands for content delivery networks. they are distributed n/w of servers placed around the world to deliver web content efficiently. CDN links are urls that point to js libraries, css files, images etc. 
+
+4. Why is React known as React?
+--- because it reacts quickly with out reloading the entire page. It uses virtual DOM to efficiently update parts of the page.
+
+5. What is crossorigin in script tag?
+--- CORS setting for script element
+
+6. What is diference between React and ReactDOM
+--- React will have core react/ whole react algo ( creating element)
+    ReactDOM is used for dom operations, code for modifying dom ( like creating root as we use root to render dom)
+
+7. What is difference between react.development.js and react.production.js files via CDN?
+--- development mode enables different dev tools and HMR and also debugging 
+    in production mode compression and minification of Javascript and other resources happens to reduce size of the code which is not the case when it comes to development mode.
+
+8. What is async and defer?
+--- in async the fetching of script is done parallely with html parsing and once its fetcehd immediately its executed (during execution html parsing is stopped and continued once script execution is completed)
+    in defer the fetching of script is done parallely with html parsing BUT the script is executed only after the entire html parsing is finished.
+
+    if we use async in case of multiple srcipts with dependencies on each other then our code is likely to break since once a script is fetched it will be executed immediately without checking all dependencies are available, SO we need to prefer defer in this scenario
+

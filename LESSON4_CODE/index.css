@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.logoContainer {
+
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.navItems > ul {
+    display: flex;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.navItems >ul >li {
+    padding: 10px;
+}
+
+.body-container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.res-container {
+    width: 200px;
+    padding: 20px;
+}
+.res-container:hover {
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.res-card {
+    padding: 5px;
+    .ratings {
+        display: flex;
+        .rating-value {
+            padding-right:10px ;
+        }
+    }
+}
+.res-image {
+    width: 100%;
+}

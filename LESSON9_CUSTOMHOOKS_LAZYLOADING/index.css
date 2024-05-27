@@ -1,29 +1,29 @@
-.header {
+/* .header {
     display: flex;
     justify-content: space-between;
     border: 1px solid black;
-}
+} */
 
-.logo {
+/* .logo {
     width: 100px;
     height: 100px;
-}
+} */
 
-.navItems > ul {
+/* .navItems > ul {
     display: flex;
     padding: 10px;
     list-style-type: none;
-}
+} */
 
-.navItems >ul >li {
+/* .navItems >ul >li {
     padding: 10px;
-}
+} */
 
-.body-res-containers {
+/* .body-res-containers {
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
-}
+} */
 .res-container {
     width: 200px;
     padding: 10px;
@@ -47,9 +47,9 @@
     width: 100%;
 }
 
-.filter-btn {
+/* .filter-btn {
     cursor: pointer;
-}
+} */
 
 
 .skeleton-container {
@@ -68,13 +68,13 @@
 .login {
     padding: 0 10px;
 }
-.top-container{
+/* .top-container{
     padding: 10px;
     display: flex;
-}
-.search-container {
+} */
+/* .search-container {
     padding-right: 20px;
-}
+} */
 
 .user-box {
     padding: 10px;

@@ -1,0 +1,665 @@
+{
+    "statusCode": 0,
+    "data": {
+        "statusMessage": "done successfully",
+        "cards": [
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+                        "text": "Rajahmundry Ruchulu",
+                        "headerStyling": {
+                            "textColor": "text_Highest_Emphasis",
+                            "textVariant": "header_H3_Black"
+                        }
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+                        "tabs": [
+                            {
+                                "id": "Order Online",
+                                "title": "Order Online"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "709828",
+                            "name": "Rajahmundry Ruchulu",
+                            "city": "Hyderabad",
+                            "slugs": {
+                                "restaurant": "rajahmundry-ruchulu-kukatpally-kukatpally",
+                                "city": "hyderabad"
+                            },
+                            "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+                            "cloudinaryImageId": "4ff50601cfb33331acb57d06f7ddcae3",
+                            "locality": "Venkataramana Colony",
+                            "areaName": "Kukatpally",
+                            "costForTwo": "40000",
+                            "costForTwoMessage": "₹400 for two",
+                            "cuisines": [
+                                "Biryani",
+                                "South Indian"
+                            ],
+                            "avgRating": 3.8,
+                            "feeDetails": {
+                                "restaurantId": "709828",
+                                "fees": [
+                                    {
+                                        "name": "TYPE_DISTANCE",
+                                        "fee": 8800
+                                    },
+                                    {
+                                        "name": "TYPE_TIME"
+                                    }
+                                ],
+                                "totalFee": 8800,
+                                "title": "Delivery Charge",
+                                "amount": "8800",
+                                "icon": "v1648635511/Delivery_fee_new_cjxumu",
+                                "message": "<b>7.0 kms</b> | ₹88 Delivery fee will apply"
+                            },
+                            "parentId": "253324",
+                            "avgRatingString": "3.8",
+                            "totalRatingsString": "1K+ ratings",
+                            "sla": {
+                                "restaurantId": "709828",
+                                "deliveryTime": 38,
+                                "minDeliveryTime": 35,
+                                "maxDeliveryTime": 40,
+                                "lastMileTravel": 7,
+                                "serviceability": "SERVICEABLE",
+                                "stressFactor": 1,
+                                "rainMode": "RAIN_MODE_NONE",
+                                "longDistance": "LONG_DISTANCE_IT_IS_LONG_DISTANCE",
+                                "zoneId": 22,
+                                "slaString": "35-40 MINS",
+                                "lastMileTravelString": "7.0 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-06-04 09:00:00",
+                                "visibility": true,
+                                "opened": true,
+                                "restaurantClosedMeta": {}
+                            },
+                            "aggregatedDiscountInfo": {
+                                "header": "20% off",
+                                "shortDescriptionList": [
+                                    {
+                                        "meta": "20% off | Use TRYNEW",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "Flat ₹125 off | Use FLAVORFUL",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "20% off up to ₹50 | Use code TRYNEW",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "Flat ₹125 off | Use FLAVORFUL",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "visible": true
+                            },
+                            "badges": {},
+                            "slugString": "rajahmundry-ruchulu-kukatpally-kukatpally",
+                            "isOpen": true,
+                            "labels": [
+                                {
+                                    "title": "Timings",
+                                    "message": "null"
+                                },
+                                {
+                                    "title": "Address",
+                                    "message": "PLOT NO:1750,SRI VENKATESWARA SWAMY RESIDENCY,GOKUL PLOTS,VENKATARAMANA COLONY,KPHB 13TH PHASE,HYDERABAD-500072, Kukatpally Circle No 24, Hyderabad, Telangana-500072"
+                                },
+                                {
+                                    "title": "Cuisines",
+                                    "message": "Biryani,South Indian"
+                                }
+                            ],
+                            "totalRatings": 1000,
+                            "aggregatedDiscountInfoV2": {
+                                "header": "20% off",
+                                "shortDescriptionList": [
+                                    {
+                                        "meta": "20% off | Use TRYNEW",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "Flat ₹125 off | Use FLAVORFUL",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "20% off up to ₹50 | Use code TRYNEW",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "Flat ₹125 off | Use FLAVORFUL",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "couponDetailsCta": "View coupon details"
+                            },
+                            "type": "F",
+                            "nudgeBanners": [
+                                {
+                                    "minValue": 279,
+                                    "maxValue": 399,
+                                    "priority": 2,
+                                    "couponCode": "FLAVORFUL",
+                                    "discountInfo": {
+                                        "discountType": "Flat",
+                                        "value": 125
+                                    },
+                                    "lockedMessage": "Add items worth ₹<amount> to save ₹125 | Code FLAVORFUL",
+                                    "unlockedMessage": "FLAVORFUL Coupon Unlocked! Use it to save ₹125",
+                                    "logoCtx": {}
+                                },
+                                {
+                                    "minValue": 630,
+                                    "maxValue": 900,
+                                    "priority": 3,
+                                    "couponCode": "PARTY",
+                                    "discountInfo": {
+                                        "discountType": "Percentage",
+                                        "value": 10
+                                    },
+                                    "lockedMessage": "Add items worth ₹<amount> to unlock flat 10% off | Code PARTY",
+                                    "unlockedMessage": "PARTY Coupon Unlocked! Use it to save flat 10% off",
+                                    "logoCtx": {}
+                                }
+                            ],
+                            "headerBanner": {
+                                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/709828"
+                            },
+                            "expectationNotifiers": [
+                                {
+                                    "text": "<b>7.0 kms</b> | ₹88 Delivery fee will apply",
+                                    "icon": {
+                                        "imageId": "v1648635511/Delivery_fee_new_cjxumu"
+                                    },
+                                    "popup": {
+                                        "cta": {}
+                                    },
+                                    "type": "DISTANCE_FEE_FOOD_LM",
+                                    "enrichedText": "<b>7.0 kms</b> | ₹88 Delivery fee will apply",
+                                    "halfCardPopup": {
+                                        "halfCardPopupHeader": {}
+                                    },
+                                    "trailingIcon": {}
+                                }
+                            ],
+                            "ratingSlab": "RATING_SLAB_4",
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {}
+                            },
+                            "hasBestsellerItems": true,
+                            "cartOrderabilityNudgeBanner": {
+                                "parameters": {},
+                                "presentation": {}
+                            },
+                            "latLong": "17.483533,78.380564",
+                            "backgroundImageOverlayInfo": {}
+                        },
+                        "analytics": {}
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+                        "layout": {
+                            "rows": 1,
+                            "columns": 4,
+                            "horizontalScrollEnabled": true,
+                            "itemSpacing": 12,
+                            "lineSpacing": 10,
+                            "widgetPadding": {},
+                            "containerStyle": {
+                                "containerPadding": {
+                                    "left": 10,
+                                    "right": 10
+                                }
+                            },
+                            "scrollBar": {
+                                "scrollThumbColor": "#E46D47",
+                                "scrollTrackColor": "#e4e4e4",
+                                "width": 54,
+                                "height": 4,
+                                "scrollStyling": {
+                                    "padding": {
+                                        "top": 20,
+                                        "bottom": 20
+                                    }
+                                }
+                            }
+                        },
+                        "id": "offerCollectionWidget",
+                        "gridElements": {
+                            "infoWithStyle": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                                "offers": [
+                                    {
+                                        "info": {
+                                            "header": "20% OFF UPTO ₹50",
+                                            "offerTagColor": "#E46D47",
+                                            "offerIds": [
+                                                "5f55265c-fc2f-4c96-94c3-5e26df2f3482"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE TRYNEW",
+                                            "description": "ABOVE ₹159",
+                                            "offerType": "offers",
+                                            "restId": "709828",
+                                            "offerLogo": "offers/generic",
+                                            "descriptionTextColor": "#7302060C"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "FLAT ₹125 OFF",
+                                            "offerTag": "FLAT DEAL",
+                                            "offerTagColor": "#E46D47",
+                                            "offerIds": [
+                                                "41327672-4f3c-4982-94f8-a677c9321746"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE FLAVORFUL",
+                                            "description": "ABOVE ₹399",
+                                            "offerType": "offers",
+                                            "restId": "709828",
+                                            "offerLogo": "offers/generic",
+                                            "descriptionTextColor": "#7302060C"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "FLAT 10% OFF",
+                                            "offerTag": "FLAT DEAL",
+                                            "offerTagColor": "#E46D47",
+                                            "offerIds": [
+                                                "61eec8b9-02bd-4ded-9864-9823d024bb43"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE PARTY",
+                                            "description": "ABOVE ₹900",
+                                            "offerType": "offers",
+                                            "restId": "709828",
+                                            "offerLogo": "offers/generic",
+                                            "descriptionTextColor": "#7302060C"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "FLAT ₹50 OFF",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/5/31/f71f1df1-bfba-4f4c-88a4-82cccf73fe9e_ici.jpg",
+                                            "offerIds": [
+                                                "55c218f5-5adb-4051-8bcb-96410b716ba6"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "NO CODE REQUIRED",
+                                            "description": "ABOVE ₹600",
+                                            "offerType": "offers",
+                                            "restId": "709828",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2024/5/31/f71f1df1-bfba-4f4c-88a4-82cccf73fe9e_ici.jpg",
+                                            "descriptionTextColor": "#7302060C"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    }
+                                ],
+                                "habitMilestoneInfo": {
+                                    "callout": {}
+                                },
+                                "loyaltyDiscoverPresentationInfo": {
+                                    "logoCtx": {}
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuTab",
+                        "tabs": [
+                            {
+                                "id": "REGULAR",
+                                "title": "Full Menu",
+                                "selected": true,
+                                "analytics": {},
+                                "selectedImage": "v1594205104/fullMenuActive_qcsdzt.png",
+                                "unselectedImage": "v1594205107/fullMenuInactive_fbdtp2.png"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "groupedCard": {
+                    "cardGroupMap": {
+                        "REGULAR": {
+                            "cards": [
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                                            "badges": {},
+                                            "vegOnlyDetails": {
+                                                "imageId": "AutoVegOnly_qkjowj",
+                                                "title": "Showing only vegetarian options.",
+                                                "description": "Tap on the VEG ONLY button to turn off the setting"
+                                            },
+                                            "topRatedFilter": {
+                                                "attributes": {
+                                                    "displayText": "Ratings 4.0+"
+                                                }
+                                            },
+                                            "kidsCategoryFilter": {
+                                                "attributes": {
+                                                    "displayText": "Kids Favourites",
+                                                    "tooltip": {
+                                                        "enabled": true,
+                                                        "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                                                    }
+                                                }
+                                            },
+                                            "vegFilter": {
+                                                "attributes": {
+                                                    "displayText": "VEG"
+                                                }
+                                            },
+                                            "nonvegFilter": {
+                                                "attributes": {
+                                                    "displayText": "NONVEG"
+                                                }
+                                            }
+                                        },
+                                        "relevance": {
+                                            "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                                            "sectionId": "MENU_FILTER_TOGGLE"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Biryani'S",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "130480929",
+                                                            "name": "Chitti Mutiyalu Chicken Biryani",
+                                                            "category": "Biryani'S",
+                                                            "description": "Chitti mutayalu rice served with chicken kabab pieces",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/1/216eb098-7b78-47ed-a60a-bfa7d76f90fd_2f4d5103-998e-4575-bd2e-f678671a60bf.jpg",
+                                                            "inStock": 1,
+                                                            "price": 28000,
+                                                            "variants": {
+                                                                "variantGroups": [
+                                                                    {
+                                                                        "groupId": "41343674",
+                                                                        "name": "Quantity",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Regular",
+                                                                                "default": 1,
+                                                                                "id": "133104415",
+                                                                                "inStock": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Large",
+                                                                                "price": 9900,
+                                                                                "id": "133104416",
+                                                                                "inStock": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.5",
+                                                                    "ratingCount": "140 ratings",
+                                                                    "ratingCountV2": "140"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "130653045",
+                                                            "name": "Chitti Mutayalu Mutton Biryani",
+                                                            "category": "Biryani'S",
+                                                            "description": "Chitti mutayalu mutton biryani",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/1/7c762b9c-e1de-4d41-86aa-503d51ffcc7d_570b689f-869d-4a6e-a77a-9be2cfcdd172.jpg",
+                                                            "inStock": 1,
+                                                            "price": 36300,
+                                                            "variants": {
+                                                                "variantGroups": [
+                                                                    {
+                                                                        "groupId": "41343673",
+                                                                        "name": "Quantity",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Regular",
+                                                                                "default": 1,
+                                                                                "id": "133104417",
+                                                                                "inStock": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Large",
+                                                                                "price": 10000,
+                                                                                "id": "133104418",
+                                                                                "inStock": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.2",
+                                                                    "ratingCount": "42 ratings",
+                                                                    "ratingCountV2": "42"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Desserts",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "136063363",
+                                                            "name": "Junnu -250 Gms",
+                                                            "category": "Desserts",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 15000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.6",
+                                                                    "ratingCount": "13 ratings",
+                                                                    "ratingCountV2": "13"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "136063375",
+                                                            "name": "Gulab Jam -3 pcs",
+                                                            "category": "Desserts",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 8000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.5",
+                                                                    "ratingCount": "14 ratings",
+                                                                    "ratingCountV2": "14"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                                            "type": "FSSAI",
+                                            "imageId": "fssai_final_edss9i",
+                                            "text": [
+                                                "License No. 13623013000609"
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                                            "name": "Rajahmundry Ruchulu",
+                                            "area": "Kukatpally",
+                                            "completeAddress": "PLOT NO:1750,SRI VENKATESWARA SWAMY RESIDENCY,GOKUL PLOTS,VENKATARAMANA COLONY,KPHB 13TH PHASE,HYDERABAD-500072, Kukatpally Circle No 24, Hyderabad, Telangana-500072"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "firstOffsetRequest": true,
+        "isQCLink": false
+    },
+    "tid": "838121b8-6446-4cae-8d52-1de124e1b820",
+    "sid": "e7i99436-1fba-4215-90c1-37e1cd1f027f",
+    "deviceId": "abbe0936-263b-4452-53b9-33ac9bbe1933",
+    "csrfToken": "4BSeH6C7vHsY-px9SdkR7MDVkDyampDaRdlR2fGE"
+}
